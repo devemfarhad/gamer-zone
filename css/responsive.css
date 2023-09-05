@@ -1,0 +1,70 @@
+/* tablet device for responsive styles starts here */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .nav-container,
+    .menu-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-content {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+    }
+
+    .menu-content {
+        max-width: 100%;
+    }
+
+    .menu-content li {
+        padding: 10px;
+    }
+
+    .menu-content>li .follow-btn {
+        padding: 10px 20px;
+    }
+}
+
+
+
+
+    /* small device for responsive styles starts here */
+
+
+@media screen and (max-width: 576px) {
+
+    nav{
+        padding-bottom: 15px;
+    }
+    .nav-container, .online-games-container,
+    .menu-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-content {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .menu-content {
+        max-width: 100%;
+    }
+
+    .menu-content li {
+        padding: 10px;
+        padding-left: 10px;
+    }
+
+    .menu-content>li .follow-btn {
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+}
