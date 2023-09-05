@@ -51,6 +51,37 @@
     .banner-about {
         font-size: 15px;
     }
+
+    .icon-box-image {
+        padding: 20px 20px;
+    }
+
+    .icon-box-image img {
+        width: 40px;
+    }
+
+    .icon-title {
+        font-size: 15px
+    }
+        
+    .icon-box-image {
+        padding: 20px 20px;
+    }
+
+    .icon-box-image img {
+        width: 40px;
+    }
+
+
+    .icon-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .icon-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 
@@ -159,5 +190,22 @@
     .section-description {
         font-size: 15px;
         padding: 20px;
+    }
+
+    .icon-box-image {
+        padding: 20px 20px;
+    }
+
+    .icon-box-image img {
+        width: 30px;
+    }
+
+    .icon-title {
+        font-size: 10px;
+    }
+
+    .icon-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
