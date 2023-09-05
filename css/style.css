@@ -5,6 +5,38 @@
     padding: 0px;
     box-sizing: border-box;
 }
+:root {
+    --theme-font: 'Work Sans', sans-serif;
+
+    --theme-color: #F948B2;
+    --color-one: #8758F1;
+    --color-two: #4EC5F7;
+    --color-paragraph: #534C64;
+    --color-dark: #0B0223;
+    --color-gray: #3C354F;
+}
+
+h1 {
+    font-size: 95px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-dark);
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    color: var(--color-paragraph);
+    font-size: 18px;
+    font-weight: 400;
+}
 
 .section-title {
     font-size: 48px;
@@ -170,6 +202,71 @@ nav .nav-container h3 {
     text-transform: uppercase;
 }
 
+/* we-are-gamer start */
+.we-are-gamer {
+    padding: 70px 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we-are-gamer .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    place-items: center;
+}
+
+.we-are-gamer .wrapper .left img {
+    width: 100%;
+}
+
+.we-are-gamer .wrapper .right {
+    width: 100%;
+    max-width: 520px;
+    text-align: right;
+}
+
+.we-are-gamer .wrapper .right h2 {
+    color: var(--theme-color);
+    padding-bottom: 20px;
+}
+
+.we-are-gamer .wrapper .right p {
+    padding-bottom: 20px;
+}
+
+.we-are-gamer .wrapper .right button {
+    margin-bottom: 20px;
+}
+
+.we-are-gamer .wrapper .right p.purpose {
+    margin-bottom: 0;
+    padding: 0;
+    color: var(--color-paragraph);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.we-are-gamer .wrapper .right p.quote {
+    margin-bottom: 0;
+    color: var(--color-paragraph);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.button-1 {
+    border-radius: 48px;
+    padding: 18px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background: var(--theme-color);
+}
+
 /* play games section starts here */
 .play-games {
     display: flex;
@@ -251,10 +348,6 @@ nav .nav-container h3 {
 }
 
 
-
-
-
-
 /* online games starts here */
 
 .online-games-image {
@@ -324,3 +417,135 @@ nav .nav-container h3 {
 .img-description{
     font-size: 15px;
 }
+
+/* career-sec start */
+.career-sec {
+    background: var(--theme-color);
+    padding: 50px 0;
+}
+
+.career-sec .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+}
+
+.career-sec .left h2 {
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.career-sec .left>p {
+    color: #fff;
+    padding-bottom: 32px;
+}
+
+.career-sec .left .career-positions {
+    padding-bottom: 30px;
+}
+
+.career-sec .left .career-positions .career-position {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.career-sec .left .career-positions .career-position p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.career-sec .left .career-positions .career-position p.place {
+    text-align: right;
+}
+
+.career-sec .left button {
+    border-radius: 48px;
+    font-weight: 500;
+    background: #fff;
+    border: none;
+    outline: none;
+    color: var(--theme-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    cursor: pointer;
+}
+
+.career-sec .wrapper .right {
+    width: 100%;
+}
+
+.career-sec .wrapper .right img {
+    width: 100%;
+}
+
+/* career-sec end */
+
+/* footer styles starts here */
+
+footer {
+    background: #0B0223;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.footer-logo h3 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 30px;
+    gap: 40px;
+}
+
+.fa-brands {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    padding: 50px 30px;
+    font-size: 25px;
+}
+
+.footer-condition {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    flex-direction: column;
+    padding: 40px 30px;
+}
+
+.footer-copy-rights {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 25px;
+}
+
+/* footer styles ends here */

@@ -52,6 +52,20 @@
         font-size: 15px;
     }
 
+    .we-are-gamer .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .we-are-gamer .wrapper .left img {
+        width: 100%;
+    }
+
+    .we-are-gamer .wrapper .right {
+        width: 100%;
+        max-width: 520px;
+        text-align: center;
+    }
+
     .icon-box-image {
         padding: 20px 20px;
     }
@@ -81,6 +95,29 @@
     .icon-box {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .career-sec .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .career-sec .left .career-positions .career-position p {
+        font-size: 18px;
+    }
+    .footer-about {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 15px;
+        font-weight: 600;
+        padding: 30px;
+        gap: 40px;
+    }
+    .footer-our-condition{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
+    .online-games-container{
+       flex-direction: column;
     }
 }
 
@@ -177,6 +214,7 @@
     }
 
 
+
     .play-games {
         flex-direction: column-reverse;
         text-align: center;
@@ -207,5 +245,18 @@
     .icon-box {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-about {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 15px;
+        font-weight: 600;
+        padding: 30px;
+        gap: 40px;
+    }
+    .footer-our-condition{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
     }
 }
