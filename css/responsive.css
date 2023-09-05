@@ -1,4 +1,4 @@
-/* tablet device for responsive styles starts here */
+/* Tablet */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
@@ -27,12 +27,38 @@
     .menu-content>li .follow-btn {
         padding: 10px 20px;
     }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+    
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 10px;
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    
+    .banner-title {
+        font-size: 60px;
+    }
+    
+    .banner-play {
+        font-size: 25px;
+    }
+    
+    .banner-about {
+        font-size: 15px;
+    }
 }
 
 
 
 
-    /* small device for responsive styles starts here */
+
+
+/* Mobile */
 
 
 @media screen and (max-width: 576px) {
@@ -66,5 +92,72 @@
     .menu-content>li .follow-btn {
         padding: 10px 20px;
         margin-bottom: 10px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 10px;
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .banner-text {
+        max-width: 100%;
+    }
+
+    .banner-image {
+        max-width: 100%;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+
+    .banner-play {
+        font-size: 15px;
+    }
+
+    .banner-about {
+        font-size: 10px;
+    }
+
+    .btn {
+        display: flex;
+        gap: 10px;
+    }
+
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 20px;
+        border: 0;
+        border-radius: 24px;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        margin-top: 40px;
+        color: #FFF;
+        font-size: 8px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .btn>.btn-secondary {
+        background: #4EC5F7;
+    }
+
+
+    .play-games {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .section-description {
+        font-size: 15px;
+        padding: 20px;
     }
 }
