@@ -78,24 +78,25 @@
         font-size: 15px
     }
         
-    .icon-box-image {
-        padding: 20px 20px;
-    }
+        .icon-box-image {
+            padding: 20px 20px;
+        }
 
-    .icon-box-image img {
-        width: 40px;
-    }
+        .icon-box-image img {
+            width: 40px;
+        }
 
+
+        .icon-box {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
 
     .icon-box {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .icon-box {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
 
     .career-sec .wrapper {
         grid-template-columns: 1fr;
@@ -258,5 +259,19 @@
     .footer-our-condition{
         display: grid;
         grid-template-columns: repeat(2, 2fr);
+    }
+
+    .we-are-gamer .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .we-are-gamer .wrapper .left img {
+        width: 100%;
+    }
+
+    .we-are-gamer .wrapper .right {
+        width: 100%;
+        max-width: 520px;
+        text-align: center;
     }
 }

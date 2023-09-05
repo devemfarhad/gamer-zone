@@ -5,9 +5,8 @@
     padding: 0px;
     box-sizing: border-box;
 }
-:root {
-    --theme-font: 'Work Sans', sans-serif;
 
+:root {
     --theme-color: #F948B2;
     --color-one: #8758F1;
     --color-two: #4EC5F7;
@@ -421,7 +420,7 @@ nav .nav-container h3 {
 /* career-sec start */
 .career-sec {
     background: var(--theme-color);
-    padding: 50px 0;
+    padding: 50px 50px;
 }
 
 .career-sec .wrapper {
